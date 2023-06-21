@@ -1,0 +1,462 @@
+{
+  "uuid": "66cf8186-87d0-484b-8e3d-719758290680",
+  "lastMigration": 27,
+  "name": "Mockoon1.HelloWorld",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "38e916c7-59df-4353-b469-ec19ecdac801",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls",
+      "responses": [
+        {
+          "uuid": "9e70af55-e36b-4d2f-bf9e-4cb488276971",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"Name\": \"Tim Control 1\",\r\n            \"StateCode\": \"APPROVED\",\r\n            \"Status\": \"ACTIVE\",\r\n            \"ControlMethod\": \"MANUAL\",\r\n            \"ControlFrequency\": null,\r\n            \"AuditTestingFlag\": \"N\",\r\n            \"AssessmentFlag\": \"N\",\r\n            \"EnforcementType\": null,\r\n            \"ControlCost\": null,\r\n            \"ControlId\": 18000,\r\n            \"ControlType\": null,\r\n            \"CreationDate\": \"2023-05-19T00:27:10.001-07:00\",\r\n            \"LastUpdateDate\": \"2023-05-19T00:27:27.915-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"ReviewedBy\": null,\r\n            \"ApprovedBy\": null,\r\n            \"ApprovedDate\": null,\r\n            \"ReviewStartDate\": null,\r\n            \"ReviewedDate\": null,\r\n            \"RevisionDate\": \"2023-05-18T17:27:28.721-07:00\",\r\n            \"StartDate\": \"2023-05-19T00:27:10-07:00\",\r\n            \"TotalRevisions\": 1,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/additionalInformation\",\r\n                    \"name\": \"additionalInformation\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/assertions\",\r\n                    \"name\": \"assertions\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/comments\",\r\n                    \"name\": \"comments\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/perspectives\",\r\n                    \"name\": \"perspectives\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/relatedRisks\",\r\n                    \"name\": \"relatedRisks\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/child/testPlans\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/18000/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"Name\": \"KN 06.21.A\",\r\n            \"StateCode\": \"APPROVED\",\r\n            \"Status\": \"ACTIVE\",\r\n            \"ControlMethod\": \"MANUAL\",\r\n            \"ControlFrequency\": \"WEEKLY\",\r\n            \"AuditTestingFlag\": \"N\",\r\n            \"AssessmentFlag\": \"N\",\r\n            \"EnforcementType\": \"CORRECTIVE\",\r\n            \"ControlCost\": 125,\r\n            \"ControlId\": 35001,\r\n            \"ControlType\": null,\r\n            \"CreationDate\": \"2023-06-21T22:23:07.001-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"ReviewedBy\": null,\r\n            \"ApprovedBy\": null,\r\n            \"ApprovedDate\": null,\r\n            \"ReviewStartDate\": null,\r\n            \"ReviewedDate\": null,\r\n            \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n            \"StartDate\": \"2023-06-21T22:23:07-07:00\",\r\n            \"TotalRevisions\": 1,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000478\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/additionalInformation\",\r\n                    \"name\": \"additionalInformation\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/assertions\",\r\n                    \"name\": \"assertions\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/comments\",\r\n                    \"name\": \"comments\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/perspectives\",\r\n                    \"name\": \"perspectives\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/relatedRisks\",\r\n                    \"name\": \"relatedRisks\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"Name\": \"KN 06.21.B\",\r\n            \"StateCode\": \"NEW\",\r\n            \"Status\": \"ACTIVE\",\r\n            \"ControlMethod\": \"MANUAL\",\r\n            \"ControlFrequency\": \"YEARLY\",\r\n            \"AuditTestingFlag\": \"N\",\r\n            \"AssessmentFlag\": \"N\",\r\n            \"EnforcementType\": \"DETECTIVE\",\r\n            \"ControlCost\": 300,\r\n            \"ControlId\": 35002,\r\n            \"ControlType\": null,\r\n            \"CreationDate\": \"2023-06-21T22:27:12.001-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"ReviewedBy\": null,\r\n            \"ApprovedBy\": null,\r\n            \"ApprovedDate\": null,\r\n            \"ReviewStartDate\": null,\r\n            \"ReviewedDate\": null,\r\n            \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n            \"StartDate\": \"2023-06-21T22:27:12-07:00\",\r\n            \"TotalRevisions\": 1,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000478\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/additionalInformation\",\r\n                    \"name\": \"additionalInformation\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/assertions\",\r\n                    \"name\": \"assertions\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/comments\",\r\n                    \"name\": \"comments\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/perspectives\",\r\n                    \"name\": \"perspectives\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/relatedRisks\",\r\n                    \"name\": \"relatedRisks\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"Name\": \"PN Temp 2\",\r\n            \"StateCode\": \"APPROVED\",\r\n            \"Status\": \"ACTIVE\",\r\n            \"ControlMethod\": \"MANUAL\",\r\n            \"ControlFrequency\": null,\r\n            \"AuditTestingFlag\": \"N\",\r\n            \"AssessmentFlag\": \"N\",\r\n            \"EnforcementType\": null,\r\n            \"ControlCost\": null,\r\n            \"ControlId\": 20002,\r\n            \"ControlType\": null,\r\n            \"CreationDate\": \"2023-05-23T22:36:19.001-07:00\",\r\n            \"LastUpdateDate\": \"2023-05-23T22:38:09-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"ReviewedBy\": null,\r\n            \"ApprovedBy\": null,\r\n            \"ApprovedDate\": null,\r\n            \"ReviewStartDate\": null,\r\n            \"ReviewedDate\": null,\r\n            \"RevisionDate\": \"2023-05-23T15:36:27.471-07:00\",\r\n            \"StartDate\": \"2023-05-23T22:36:19-07:00\",\r\n            \"TotalRevisions\": 1,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/additionalInformation\",\r\n                    \"name\": \"additionalInformation\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/assertions\",\r\n                    \"name\": \"assertions\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/comments\",\r\n                    \"name\": \"comments\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/perspectives\",\r\n                    \"name\": \"perspectives\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/relatedRisks\",\r\n                    \"name\": \"relatedRisks\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/child/testPlans\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20002/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"Name\": \"PN Temp 1\",\r\n            \"StateCode\": \"APPROVED\",\r\n            \"Status\": \"ACTIVE\",\r\n            \"ControlMethod\": \"MANUAL\",\r\n            \"ControlFrequency\": null,\r\n            \"AuditTestingFlag\": \"N\",\r\n            \"AssessmentFlag\": \"N\",\r\n            \"EnforcementType\": null,\r\n            \"ControlCost\": null,\r\n            \"ControlId\": 20001,\r\n            \"ControlType\": null,\r\n            \"CreationDate\": \"2023-05-23T22:36:01.001-07:00\",\r\n            \"LastUpdateDate\": \"2023-05-23T22:38:31-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"ReviewedBy\": null,\r\n            \"ApprovedBy\": null,\r\n            \"ApprovedDate\": null,\r\n            \"ReviewStartDate\": null,\r\n            \"ReviewedDate\": null,\r\n            \"RevisionDate\": \"2023-05-23T15:36:16.751-07:00\",\r\n            \"StartDate\": \"2023-05-23T22:36:01-07:00\",\r\n            \"TotalRevisions\": 1,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/additionalInformation\",\r\n                    \"name\": \"additionalInformation\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/assertions\",\r\n                    \"name\": \"assertions\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/comments\",\r\n                    \"name\": \"comments\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/perspectives\",\r\n                    \"name\": \"perspectives\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/relatedRisks\",\r\n                    \"name\": \"relatedRisks\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/child/testPlans\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/20001/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 5,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "6576c34e-b121-4f7c-a2ea-6fcf33011cab",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001",
+      "responses": [
+        {
+          "uuid": "b1b36555-bd7b-4785-be9a-ffbc8bb8b2d4",
+          "body": "{\r\n    \"Name\": \"KN 06.21.A\",\r\n    \"StateCode\": \"APPROVED\",\r\n    \"Status\": \"ACTIVE\",\r\n    \"ControlMethod\": \"MANUAL\",\r\n    \"ControlFrequency\": \"WEEKLY\",\r\n    \"AuditTestingFlag\": \"N\",\r\n    \"AssessmentFlag\": \"N\",\r\n    \"EnforcementType\": \"CORRECTIVE\",\r\n    \"ControlCost\": 125,\r\n    \"ControlId\": 35001,\r\n    \"ControlType\": null,\r\n    \"CreationDate\": \"2023-06-21T22:23:07.001-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:26:36-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"ReviewedBy\": null,\r\n    \"ApprovedBy\": null,\r\n    \"ApprovedDate\": null,\r\n    \"ReviewStartDate\": null,\r\n    \"ReviewedDate\": null,\r\n    \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n    \"StartDate\": \"2023-06-21T22:23:07-07:00\",\r\n    \"TotalRevisions\": 1,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000478\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/additionalInformation\",\r\n            \"name\": \"additionalInformation\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/assertions\",\r\n            \"name\": \"assertions\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/comments\",\r\n            \"name\": \"comments\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/perspectives\",\r\n            \"name\": \"perspectives\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/relatedRisks\",\r\n            \"name\": \"relatedRisks\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "b85970a4-68b9-4725-94b3-0959d0b6e0f8",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002",
+      "responses": [
+        {
+          "uuid": "0d4371af-c119-47d3-aabe-d683eb97f1fa",
+          "body": "{\r\n    \"Name\": \"KN 06.21.B\",\r\n    \"StateCode\": \"NEW\",\r\n    \"Status\": \"ACTIVE\",\r\n    \"ControlMethod\": \"MANUAL\",\r\n    \"ControlFrequency\": \"YEARLY\",\r\n    \"AuditTestingFlag\": \"N\",\r\n    \"AssessmentFlag\": \"N\",\r\n    \"EnforcementType\": \"DETECTIVE\",\r\n    \"ControlCost\": 300,\r\n    \"ControlId\": 35002,\r\n    \"ControlType\": null,\r\n    \"CreationDate\": \"2023-06-21T22:27:12.001-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:29:30-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"ReviewedBy\": null,\r\n    \"ApprovedBy\": null,\r\n    \"ApprovedDate\": null,\r\n    \"ReviewStartDate\": null,\r\n    \"ReviewedDate\": null,\r\n    \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n    \"StartDate\": \"2023-06-21T22:27:12-07:00\",\r\n    \"TotalRevisions\": 1,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000478\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/additionalInformation\",\r\n            \"name\": \"additionalInformation\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/assertions\",\r\n            \"name\": \"assertions\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/comments\",\r\n            \"name\": \"comments\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/perspectives\",\r\n            \"name\": \"perspectives\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/relatedRisks\",\r\n            \"name\": \"relatedRisks\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "954b7897-ea4b-412e-989a-878d7a537c99",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001/child/testPlans",
+      "responses": [
+        {
+          "uuid": "eb3171a8-8662-46a9-af72-b99e1f6cb401",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"ControlId\": 35001,\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:24:20-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.314-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"Name\": \"Test Plan KN 06.21.A Audit Test\",\r\n            \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n            \"SampleSize\": 250,\r\n            \"TestPlanFrequency\": \"MONTHLY\",\r\n            \"TestPlanId\": 10000,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/planActivity\",\r\n                    \"name\": \"planActivity\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"ControlId\": 35001,\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:25:33-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.398-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"Name\": \"Test Plan KN 06.21.A Operational Assessment\",\r\n            \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n            \"SampleSize\": 123,\r\n            \"TestPlanFrequency\": \"DAILY\",\r\n            \"TestPlanId\": 10001,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/planActivity\",\r\n                    \"name\": \"planActivity\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 2,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "cbaa8fae-3b0f-433e-9dbc-9802126d06bd",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002/child/testPlans",
+      "responses": [
+        {
+          "uuid": "ccaac6ba-85a0-4145-b8a0-8cc846e06c5c",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"ControlId\": 35002,\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:28:07-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.171-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"Name\": \"Design Review KN 06.21.B\",\r\n            \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n            \"SampleSize\": null,\r\n            \"TestPlanFrequency\": \"DAILY\",\r\n            \"TestPlanId\": 10002,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/planActivity\",\r\n                    \"name\": \"planActivity\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"ControlId\": 35002,\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:28:46-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.224-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"Name\": \"Certification KN 06.21.B\",\r\n            \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n            \"SampleSize\": 99,\r\n            \"TestPlanFrequency\": \"MONTHLY\",\r\n            \"TestPlanId\": 10003,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n                    \"name\": \"frcControls\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/planActivity\",\r\n                    \"name\": \"planActivity\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"child\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"collection\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 2,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c0326e3d-1e67-4afb-8577-da279d2fd607",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001/child/testPlans/10001",
+      "responses": [
+        {
+          "uuid": "5a7ef4d7-2317-467a-89aa-1a9712e2b05f",
+          "body": "{\r\n    \"ControlId\": 35001,\r\n    \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"CreationDate\": \"2023-06-21T22:25:33-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:26:36.398-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"Name\": \"Test Plan KN 06.21.A Operational Assessment\",\r\n    \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n    \"SampleSize\": 123,\r\n    \"TestPlanFrequency\": \"DAILY\",\r\n    \"TestPlanId\": 10001,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"parent\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/planActivity\",\r\n            \"name\": \"planActivity\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "79bde00e-29b1-48de-afc7-f5ae6c0f1e44",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001/child/testPlans/10000",
+      "responses": [
+        {
+          "uuid": "a4adcc73-cf96-449c-918c-da2a3b69db60",
+          "body": "{\r\n    \"ControlId\": 35001,\r\n    \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"CreationDate\": \"2023-06-21T22:24:20-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:26:36.314-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"Name\": \"Test Plan KN 06.21.A Audit Test\",\r\n    \"RevisionDate\": \"2023-06-21T15:23:54.402-07:00\",\r\n    \"SampleSize\": 250,\r\n    \"TestPlanFrequency\": \"MONTHLY\",\r\n    \"TestPlanId\": 10000,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"parent\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/planActivity\",\r\n            \"name\": \"planActivity\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "4091d802-9f12-46f6-a00d-046f9365ad34",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001/child/testPlans/10000/child/steps",
+      "responses": [
+        {
+          "uuid": "fca9668f-699d-4caa-90a6-97dae42a718e",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:24:54.104-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.353-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 1,\r\n            \"StepOrder\": 1,\r\n            \"TestPlanId\": 10000,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/1\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/1\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/1/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:25:03.097-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.369-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 2,\r\n            \"StepOrder\": 2,\r\n            \"TestPlanId\": 10000,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/2\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/2\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/2/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:25:14.176-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.385-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 3,\r\n            \"StepOrder\": 3,\r\n            \"TestPlanId\": 10000,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/3\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/3\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps/3/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 3,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10000/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "d9e62bdc-2d40-44e8-b357-840467a8665f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35001/child/testPlans/10001/child/steps",
+      "responses": [
+        {
+          "uuid": "668aaa5f-34d4-4ab5-9408-c87213d939d0",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:25:56.961-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.421-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 4,\r\n            \"StepOrder\": 1,\r\n            \"TestPlanId\": 10001,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/4\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/4\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/4/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:26:06.155-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:26:36.434-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 5,\r\n            \"StepOrder\": 2,\r\n            \"TestPlanId\": 10001,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/5\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/5\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps/5/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 2,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35001/child/testPlans/10001/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "8cbde098-bcb0-49b9-858e-6e16edaf8e3f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002/child/testPlans/10002",
+      "responses": [
+        {
+          "uuid": "1bb53d3f-48ef-4f19-8f90-b74004565205",
+          "body": "{\r\n    \"ControlId\": 35002,\r\n    \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"CreationDate\": \"2023-06-21T22:28:07-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:29:30.171-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"Name\": \"Design Review KN 06.21.B\",\r\n    \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n    \"SampleSize\": null,\r\n    \"TestPlanFrequency\": \"DAILY\",\r\n    \"TestPlanId\": 10002,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"parent\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/planActivity\",\r\n            \"name\": \"planActivity\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "03c76c37-ddfa-4aa5-bd9c-6fc3be71752d",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002/child/testPlans/10003",
+      "responses": [
+        {
+          "uuid": "80beaf4a-20e1-451c-af6b-18a11bdadbeb",
+          "body": "{\r\n    \"ControlId\": 35002,\r\n    \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"CreationDate\": \"2023-06-21T22:28:46-07:00\",\r\n    \"LastUpdateDate\": \"2023-06-21T22:29:30.224-07:00\",\r\n    \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n    \"Name\": \"Certification KN 06.21.B\",\r\n    \"RevisionDate\": \"2023-06-21T15:27:56.368-07:00\",\r\n    \"SampleSize\": 99,\r\n    \"TestPlanFrequency\": \"MONTHLY\",\r\n    \"TestPlanId\": 10003,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\",\r\n            \"properties\": {\r\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n            }\r\n        },\r\n        {\r\n            \"rel\": \"canonical\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n            \"name\": \"testPlans\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"parent\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002\",\r\n            \"name\": \"frcControls\",\r\n            \"kind\": \"item\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/planActivity\",\r\n            \"name\": \"planActivity\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"child\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        },\r\n        {\r\n            \"rel\": \"enclosure\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/enclosure/DetailedDescription\",\r\n            \"name\": \"DetailedDescription\",\r\n            \"kind\": \"other\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "94470c79-ab33-46d7-88a2-76089b9adbd4",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002/child/testPlans/10003/child/steps",
+      "responses": [
+        {
+          "uuid": "9f1195e2-f5b1-4d5e-bef9-e6fee2d75d55",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:29:06.095-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.246-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 8,\r\n            \"StepOrder\": 1,\r\n            \"TestPlanId\": 10003,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/8\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/8\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/8/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:29:14.976-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.258-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 9,\r\n            \"StepOrder\": 2,\r\n            \"TestPlanId\": 10003,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/9\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/9\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps/9/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 2,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10003/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "b5216753-0972-4a21-afc1-0d6cb83e8e5d",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "frcControls/35002/child/testPlans/10002/child/steps",
+      "responses": [
+        {
+          "uuid": "6e4a093a-f4cd-4360-be14-356674c0d79e",
+          "body": "{\r\n    \"items\": [\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:28:23.103-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.190-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 6,\r\n            \"StepOrder\": 1,\r\n            \"TestPlanId\": 10002,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/6\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/6\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/6/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"CreatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"CreationDate\": \"2023-06-21T22:28:31.094-07:00\",\r\n            \"LastUpdateDate\": \"2023-06-21T22:29:30.203-07:00\",\r\n            \"LastUpdatedBy\": \"RISK_ACTIVITIES_MANAGER\",\r\n            \"StepId\": 7,\r\n            \"StepOrder\": 2,\r\n            \"TestPlanId\": 10002,\r\n            \"links\": [\r\n                {\r\n                    \"rel\": \"self\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/7\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\",\r\n                    \"properties\": {\r\n                        \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378\"\r\n                    }\r\n                },\r\n                {\r\n                    \"rel\": \"canonical\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/7\",\r\n                    \"name\": \"steps\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"parent\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002\",\r\n                    \"name\": \"testPlans\",\r\n                    \"kind\": \"item\"\r\n                },\r\n                {\r\n                    \"rel\": \"enclosure\",\r\n                    \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps/7/enclosure/DetailedDescription\",\r\n                    \"name\": \"DetailedDescription\",\r\n                    \"kind\": \"other\"\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"count\": 2,\r\n    \"hasMore\": false,\r\n    \"limit\": 25,\r\n    \"offset\": 0,\r\n    \"links\": [\r\n        {\r\n            \"rel\": \"self\",\r\n            \"href\": \"http://phoenix192041.appsdev1.fusionappsdphx1.oraclevcn.com:7021/fscmRestApi/resources/11.13.0.0/frcControls/35002/child/testPlans/10002/child/steps\",\r\n            \"name\": \"steps\",\r\n            \"kind\": \"collection\"\r\n        }\r\n    ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "38e916c7-59df-4353-b469-ec19ecdac801"
+    },
+    {
+      "type": "route",
+      "uuid": "6576c34e-b121-4f7c-a2ea-6fcf33011cab"
+    },
+    {
+      "type": "route",
+      "uuid": "b85970a4-68b9-4725-94b3-0959d0b6e0f8"
+    },
+    {
+      "type": "route",
+      "uuid": "954b7897-ea4b-412e-989a-878d7a537c99"
+    },
+    {
+      "type": "route",
+      "uuid": "cbaa8fae-3b0f-433e-9dbc-9802126d06bd"
+    },
+    {
+      "type": "route",
+      "uuid": "c0326e3d-1e67-4afb-8577-da279d2fd607"
+    },
+    {
+      "type": "route",
+      "uuid": "79bde00e-29b1-48de-afc7-f5ae6c0f1e44"
+    },
+    {
+      "type": "route",
+      "uuid": "4091d802-9f12-46f6-a00d-046f9365ad34"
+    },
+    {
+      "type": "route",
+      "uuid": "d9e62bdc-2d40-44e8-b357-840467a8665f"
+    },
+    {
+      "type": "route",
+      "uuid": "8cbde098-bcb0-49b9-858e-6e16edaf8e3f"
+    },
+    {
+      "type": "route",
+      "uuid": "03c76c37-ddfa-4aa5-bd9c-6fc3be71752d"
+    },
+    {
+      "type": "route",
+      "uuid": "94470c79-ab33-46d7-88a2-76089b9adbd4"
+    },
+    {
+      "type": "route",
+      "uuid": "b5216753-0972-4a21-afc1-0d6cb83e8e5d"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
